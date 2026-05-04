@@ -43,7 +43,6 @@ Aplikasi ini menggunakan struktur folder Next.js modern:
 ├── Dockerfile            # Production Docker configuration
 └── docker-compose.yml    # Docker orchestration
 ```
-![Project Structure](image_650c49.png)
 
 ## Cara Menjalankan Aplikasi
 
@@ -89,7 +88,7 @@ Aplikasi akan berjalan pada port `3000`.
 | **Manager** | `manager@ptsmart.id` | `password123` |
 | **Sales** | `sales@ptsmart.id` | `password123` |
 
-## Tampilan Aplikasi
+## Tampilan Aplikasi(Role=Manager)
 
 ### Halaman Leads
 ![Halaman Leads(manager)](image-1.png)
@@ -119,6 +118,8 @@ Aplikasi akan berjalan pada port `3000`.
 ![Form tambah pengguna](image-18.png)
 ![Form Edit Pengguna](image-19.png)
 
+
+## Tampilan Aplikasi(Role=Manager)
 
 ### Halaman Leads 
 ![Halaman Leads(Sales)](image-20.png)
